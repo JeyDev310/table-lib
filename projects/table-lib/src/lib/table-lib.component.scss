@@ -1,0 +1,86 @@
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+    width: 90%;
+    border-radius: 10px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+  
+.example-table {
+    flex: 1 1 auto;
+    overflow: auto;
+    overflow-x: none;
+}
+  
+.example-row {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    // height: 32px;
+    padding: 6px 20px;   
+}
+  
+.example-header-row{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    // position: absolute;
+    padding: 20px;
+    top:0px;
+    border-bottom: 1px solid #ccc;
+    background: #F5F6FB;
+}
+
+.example-row {
+    cursor: pointer;
+}
+  
+.example-cell, .example-header-cell {
+    float: left;
+}
+
+.example-header-cell {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Graphik-500-Medium';
+    // margin-bottom: 10px;
+    float: left;
+}
+  
+.example-cell {
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.example-header-ReferenceNumber{
+    width:20%;
+}
+
+.example-header-custominfo{
+    width:38%;
+}
+
+.example-header-status{
+    width:16%;
+}
+
+.example-header-date{
+    width:20%;
+    &.date-bold{
+        font-weight: 700;
+    }
+}
+
+.example-header-actions{
+    width:6%;
+}
+
+::ng-deep .cdk-virtual-scroll-content-wrapper {
+    transform: translateY(0px) !important;
+  }

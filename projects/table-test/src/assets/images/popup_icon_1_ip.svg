@@ -1,0 +1,15 @@
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_3-2" data-name="Group 3">
+    <rect id="Rectangle" width="24" height="24" fill="none" opacity="0.1"/>
+    <g id="Group" transform="translate(8.176 2.211)">
+      <path id="Path" d="M6.645,0,3.322,3.322,0,0" transform="translate(7.147 3.322) rotate(-180)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_Copy" data-name="Path Copy" d="M6.64,0,3.32-3.32,0,0" transform="translate(7.144 16.292) rotate(180)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M.5,18.15V0" transform="translate(3.324 0.992)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Group_Copy" data-name="Group Copy" transform="translate(2.176 16.211) rotate(-90)">
+      <path id="Path-2" data-name="Path" d="M6.64,0,3.32,3.32,0,0" transform="translate(7.531 3.32) rotate(-180)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_Copy-2" data-name="Path Copy" d="M6.64,0,3.32-3.32,0,0" transform="translate(7.531 16.341) rotate(180)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_2-2" data-name="Path 2" d="M.5,17.055V0" transform="translate(3.711 0.992)" fill="none" stroke="#67696e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

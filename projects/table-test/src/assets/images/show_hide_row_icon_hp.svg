@@ -1,0 +1,8 @@
+<svg id="Group_32" data-name="Group 32" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle" width="24" height="24" rx="12" fill="#5e51ff" opacity="0.15"/>
+  <g id="Group_2" data-name="Group 2" transform="translate(7 7)">
+    <rect id="Rectangle-2" data-name="Rectangle" width="10" height="10" fill="none" opacity="0.1"/>
+    <path id="Path" d="M.208,0V8.1" transform="translate(4.792 0.952)" fill="none" stroke="#5e51ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_Copy" data-name="Path Copy" d="M0,.208H8.1" transform="translate(0.952 4.792)" fill="none" stroke="#5e51ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

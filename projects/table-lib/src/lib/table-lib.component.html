@@ -1,0 +1,57 @@
+<div class="example-container mat-elevation-z8">
+    <div #insertionPoint></div>
+    <cdk-table #table [dataSource]="dataSource" class="example-table">
+
+        <ng-container cdkColumnDef="ReferenceNumber">
+            <cdk-header-cell *cdkHeaderCellDef class="example-header-cell example-header-ReferenceNumber"> Reference Number </cdk-header-cell>
+            <cdk-cell *cdkCellDef="let row" class="example-cell example-header-ReferenceNumber"> {{row.Reference}}</cdk-cell>
+        </ng-container>
+    
+        <ng-container cdkColumnDef="CustomerInfo">
+            <cdk-header-cell *cdkHeaderCellDef class="example-header-cell example-header-custominfo"> Customer Info </cdk-header-cell>
+            <cdk-cell *cdkCellDef="let row" class="example-cell example-header-custominfo"> 
+                <span >{{row.NumberCustomer}} </span><br>
+                <span [ngClass]="getAddressCellColor(row.Status)">{{row.Address}} | {{row.PhoneNumber}}</span>
+            </cdk-cell>
+        </ng-container>
+    
+        <ng-container cdkColumnDef="Status">
+            <cdk-header-cell *cdkHeaderCellDef class="example-header-cell example-header-status">Status</cdk-header-cell>
+            <cdk-cell *cdkCellDef="let row" class="example-cell example-header-status"
+                    [ngClass]="getCellColor(row.Status)">
+
+                    <div style="width:80px; float: left;">{{row.Status}}</div>
+                    <div><img src={{getCellImage(row.Status)}} alt="" class="mCS_img_loaded"></div>
+
+            </cdk-cell>
+        </ng-container>
+        
+        <ng-container cdkColumnDef="Date">
+            <cdk-header-cell *cdkHeaderCellDef class="example-header-cell example-header-date">Date</cdk-header-cell>
+            <cdk-cell *cdkCellDef="let row" class="example-cell example-header-date date-bold">
+            <span>{{row.Date}}</span><br>
+            <span>{{row.Time}}</span>
+            </cdk-cell>
+        </ng-container>
+
+        <ng-container cdkColumnDef="Actions">
+            <cdk-header-cell *cdkHeaderCellDef class="example-header-cell example-header-actions">Actions</cdk-header-cell>
+            <cdk-cell *cdkCellDef="let row" class="example-cell example-header-actions">
+                    <img src="../assets/images/action_icon.svg" alt="" class="mCS_img_loaded">
+            </cdk-cell>
+        </ng-container>
+        
+        <cdk-header-row *cdkHeaderRowDef="displayedColumns; sticky: true" class="example-header-row header-boder"></cdk-header-row>
+    
+        <!-- <cdk-row [style.height.px]="placeholderHeight" mat-row *cdkRowDef="let row; columns: displayedColumns; let index=index columns: []; when: placeholderWhen" class="example-row"
+            (click)="expandRow(index)"
+            #cdkrow>
+        </cdk-row> -->
+        <cdk-row mat-row *cdkRowDef="let row; columns: displayedColumns; let index=index columns: [];" class="example-row"
+            (click)="expandRow(index)"
+            #cdkrow>
+        </cdk-row>
+   
+    </cdk-table>
+</div>
+  
